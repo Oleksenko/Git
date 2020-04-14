@@ -8,7 +8,7 @@ import (
 
 func usercode(ctx context.Context, data map[string]interface{}) error {
 
-        data["foo"] = 123
+        data["foo"] = 1234
 
         return nil
 }
