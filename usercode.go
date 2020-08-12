@@ -1,9 +1,18 @@
 package main
 
-import "time"
+import (
+	"context"
+        "os"
+
+	"github.com/corezoid/gitcall-go-runner/gitcall"
+)
+
+func usercode(_ context.Context, data map[string]interface{}) error {
+       os.Exit(1)
+
+	return nil
+}
 
 func main() {
-    for {
-        time.Sleep(time.Minute)
-    }
+	gitcall.Handle(usercode)
 }
