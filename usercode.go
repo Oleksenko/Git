@@ -1,5 +1,9 @@
 package main
 
+import "time"
+
 func main() {
-    panic("test usercode process does not start")
+    for {
+        time.Sleep(time.Minute)
+    }
 }
