@@ -1,8 +1,4 @@
-const moment = require('moment');
-const axios = require('axios');
+var a = 77;
+var b = 11;
 
-module.exports = (data) => {
-    data.now = moment().format('MMMM Do YYYY, h:mm:ss a');
-
-    return data;
-};
+data.x = a + b;
