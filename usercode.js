@@ -1,4 +1,2 @@
-var a = 77;
-var b = 11;
-
-data.x = a + b;
+const moment = require('moment');
+const axios = require('axios');
