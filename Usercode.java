@@ -1,5 +1,5 @@
 // fq-class name com.corezoid.usercode.Usercode is mandatory
-package com.corezoid.test.test;
+package com.corezoid.test;
 
 import com.corezoid.gitcall.runner.api.IUsercode;
 import java.util.Map;
